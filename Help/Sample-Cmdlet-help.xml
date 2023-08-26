@@ -1,0 +1,26 @@
+<helpItems>
+  <command:command xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10">
+    <command:details>
+      <command:name>Get-SampleData</command:name>
+      <command:description>Get sample data from the module.</command:description>
+      <command:verb>Get</command:verb>
+      <command:noun>SampleData</command:noun>
+    </command:details>
+    <command:syntaxItem>
+      <maml:name>Get-SampleData</maml:name>
+      <maml:uri>MyModule/Get-SampleData</maml:uri>
+      <command:syntax>
+        <command:parameter required="true" variableLength="false" wildcard="false">
+          <command:name>param1</command:name>
+          <command:type>String</command:type>
+          <maml:description>First parameter.</maml:description>
+        </command:parameter>
+        <command:parameter required="true" variableLength="false" wildcard="false">
+          <command:name>param2</command:name>
+          <command:type>String</command:type>
+          <maml:description>Second parameter.</maml:description>
+        </command:parameter>
+      </command:syntax>
+    </command:syntaxItem>
+  </command:command>
+</helpItems>

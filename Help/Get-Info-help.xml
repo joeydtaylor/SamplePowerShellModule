@@ -1,0 +1,26 @@
+<helpItems>
+  <command:command xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10">
+    <command:details>
+      <command:name>Get-Info</command:name>
+      <command:description>Get information from the module.</command:description>
+      <command:verb>Noun</command:verb>
+      <command:noun>Get-Info</command:noun>
+    </command:details>
+    <command:syntaxItem>
+      <maml:name>Get-Info</maml:name>
+      <maml:uri>MyModule/Get-Info</maml:uri>
+      <command:syntax>
+        <command:parameter required="false" variableLength="false" wildcard="false">
+          <command:name>Param1</command:name>
+          <command:type>String</command:type>
+          <maml:description>First parameter.</maml:description>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" wildcard="false">
+          <command:name>Param2</command:name>
+          <command:type>String</command:type>
+          <maml:description>Second parameter.</maml:description>
+        </command:parameter>
+      </command:syntax>
+    </command:syntaxItem>
+  </command:command>
+</helpItems>
